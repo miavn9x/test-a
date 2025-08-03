@@ -28,8 +28,8 @@ async function bootstrap() {
 
   // Bật CORS để cho phép frontend từ origin được chỉ định truy cập tài nguyên của backend
   app.enableCors({
-    origin: ['http://localhost:3232'],
-    // origin: ['https://simhubglobal.com', 'https://www.simhubglobal.com'],
+    // origin: ['http://localhost:3232'],
+    origin: ['https://test-bsim.vercel.app', 'https://test-bsim-git-main-mia-9xs-projects.vercel.app','https://test-bsim-67l0jz6ak-mia-9xs-projects.vercel.app'],
     methods: ['GET', 'POST', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
