@@ -1,0 +1,10 @@
+/**
+ * Enum mã lỗi dành riêng cho module Users
+ */
+export enum UserErrorCode {
+  USER_NOT_FOUND = 'USER_NOT_FOUND',
+  UNAUTHORIZED = 'UNAUTHORIZED',
+  EMAIL_ALREADY_EXISTS = 'EMAIL_ALREADY_EXISTS',
+  INVALID_PASSWORD = 'INVALID_PASSWORD',
+  FORBIDDEN_ACTION = 'FORBIDDEN_ACTION',
+}
