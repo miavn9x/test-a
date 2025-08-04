@@ -31,6 +31,7 @@ async function bootstrap() {
     // origin: ['http://localhost:3232'],
     origin: [
       'https://test-bsim.vercel.app',
+      'http://test-bsim.vercel.app',
       'https://test-bsim-git-main-mia-9xs-projects.vercel.app',
       'https://test-bsim-67l0jz6ak-mia-9xs-projects.vercel.app',
     ],
