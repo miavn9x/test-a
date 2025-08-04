@@ -34,6 +34,7 @@ async function bootstrap() {
       'http://test-bsim.vercel.app',
       'https://test-bsim-git-main-mia-9xs-projects.vercel.app',
       'https://test-bsim-67l0jz6ak-mia-9xs-projects.vercel.app',
+      'https://btestsim.netlify.app',
     ],
     methods: ['GET', 'POST', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization'],
